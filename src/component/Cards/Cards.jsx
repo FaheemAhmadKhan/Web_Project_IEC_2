@@ -37,7 +37,6 @@ export default function Cards({ search }) {
           </div>
         ) : (
           <div className="text-center py-16 text-gray-400">
-            <div className="text-5xl mb-4">🔍</div>
             <div className="text-lg font-semibold mb-2">No results found</div>
             <div>Try adjusting your search terms</div>
           </div>

@@ -100,7 +100,6 @@ export default function Cartlist() {
         </div>
       ) : filteredItems.length === 0 ? (
         <div className="text-center p-16 bg-[#1A1B1F] rounded-xl shadow-inner border border-gray-800">
-          <div className="text-5xl mb-4">🔍</div>
           <h3 className="text-lg font-semibold mb-2 text-[#FFD24A]">
             No items found
           </h3>

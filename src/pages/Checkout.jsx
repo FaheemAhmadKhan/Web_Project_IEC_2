@@ -41,7 +41,7 @@ export default function Checkout() {
       }
 
       dispatch(clearCart());
-      toast.success("🎉 Purchase successful! Thank you for your order.");
+      toast.success("Purchase successful! Thank you for your order.");
       navigate("/products");
 
     };
