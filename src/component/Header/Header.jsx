@@ -32,19 +32,19 @@ export default function Header({ setSearch }) {
   };
 
   return (
-    <Box className="w-full">
+    <Box className="w-full mt-2">
       <AppBar
         position="static"
         className="!bg-[#111217] !shadow-sm border-b border-white/10"
       >
-        <Toolbar className="min-h-[64px] flex justify-between gap-2 px-4 sm:px-6 md:px-10">
+        <Toolbar className="min-h-[64px] flex justify-between gap-4 px-4 sm:px-6 md:px-10">
 
           {/* Logo */}
           <Typography
             variant="h6"
             component={Link}
             to="/"
-            className="no-underline text-[#FFD24A] font-extrabold tracking-tight text-lg sm:text-xl md:text-2xl flex-grow md:flex-grow-0 text-center md:text-left"
+            className="no-underline text-[#FFD24A] font-extrabold tracking-tight text-lg sm:text-xl md:text-2xl flex-grow md:flex-grow-0 text-start md:text-left"
           >
             LOOTBAR.gg
           </Typography>
