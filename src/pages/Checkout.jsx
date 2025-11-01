@@ -3,10 +3,14 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { clearCart } from "../store/slices/cartlistslices";
 import { toast } from "react-toastify";
+import { useLocation } from "react-router-dom";
+
 
 export default function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const location = useLocation();
+  const product = location.state?.product;
   const { totalAmount, totalQuantity } = useSelector((state) => state.cartList);
 
   const [formData, setFormData] = useState({
@@ -31,10 +35,16 @@ export default function Checkout() {
     }
 
     // Simulate order completion
-    dispatch(clearCart());
-    toast.success("🎉 Purchase successful! Thank you for your order.");
-    navigate("/products");
-  };
+    if (!product && totalQuantity === 0) {
+       toast.error("Your cart is empty!");
+        return;
+      }
+
+      dispatch(clearCart());
+      toast.success("🎉 Purchase successful! Thank you for your order.");
+      navigate("/products");
+
+    };
 
   return (
     <div className="min-h-[calc(100vh-200px)] bg-[#111217] flex items-center justify-center text-white p-6">
@@ -139,14 +149,21 @@ export default function Checkout() {
         </div>
 
         {/* Total Summary */}
-        <div className="flex justify-between mb-6 text-gray-300">
-          <span>
-            Total ({totalQuantity} {totalQuantity === 1 ? "item" : "items"}):
-          </span>
-          <span className="font-semibold text-[#FFD24A]">
-            ${parseFloat(totalAmount || 0).toFixed(2)}
-          </span>
-        </div>
+          <div className="flex justify-between mb-6 text-gray-300">
+            <span>
+              Total (
+              {product
+                ? "1 item"
+                : `${totalQuantity} ${totalQuantity === 1 ? "item" : "items"}`}
+              ):
+            </span>
+            <span className="font-semibold text-[#FFD24A]">
+              $
+              {product
+                ? parseFloat(product.price).toFixed(2)
+                : parseFloat(totalAmount || 0).toFixed(2)}
+            </span>
+          </div>
 
         {/* Buttons */}
         <button

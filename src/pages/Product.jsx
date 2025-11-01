@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addItem } from "../store/slices/cartlistslices";
 import { toast } from "react-toastify";
@@ -11,6 +11,7 @@ import products from "../games.json";
 const Product = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const product = products.find((p) => p.id === Number(id));
 
   const handleAddToCart = () => {
@@ -114,9 +115,12 @@ const Product = () => {
 
           {/* Buttons */}
           <div className="flex gap-4">
-            <button className="px-6 py-3 bg-[#FFD24A] text-black rounded-lg font-medium hover:bg-[#e6be44] transition-colors">
-              Buy Now
+           <button
+              onClick={() => navigate("/checkout", { state: { product } })}
+              className="px-6 py-3 bg-[#FFD24A] text-black rounded-lg font-medium hover:bg-[#e6be44] transition-colors">
+               Buy Now
             </button>
+
             <button
               onClick={handleAddToCart}
               className="px-6 py-3 bg-gray-800 text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
