@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "imageURL": "/assets/Games/Genshin.webp",
+    "title": "Genshin Impact",
+    "subtitle": "Top-Up",
+    "rating": 5.0,
+    "sold": "100k+",
+    "price": "49.99",
+    "discount": "-29%"
+  },
+  {
+    "id": 2,
+    "imageURL": "/assets/Games/Honkai.webp",
+    "title": "Honkai: Star Rail",
+    "subtitle": "Top-Up",
+    "rating": 5.0,
+    "sold": "100k+",
+    "price": "29.99",
+    "discount": "-23%"
+  },
+  {
+    "id": 3,
+    "imageURL": "/assets/Games/zenless.png",
+    "title": "Zenless Zone Zero",
+    "subtitle": "Top-Up",
+    "rating": 4.8,
+    "sold": "53.6k",
+    "price": "24.38",
+    "discount": "-23%"
+  },
+  {
+    "id": 4,
+    "imageURL": "/assets/Games/wuwa.jpg",
+    "title": "Wuthering Waves",
+    "subtitle": "Top-Up",
+    "rating": 4.9,
+    "sold": "72.6k",
+    "price": "29.99",
+    "discount": "-21%"
+  },
+  {
+    "id": 5,
+    "imageURL": "/assets/Games/pubg.jpg",
+    "title": "PUBG MOBILE",
+    "subtitle": "Top-Up",
+    "rating": 5.0,
+    "sold": "100k+",
+    "price": "29.99",
+    "discount": "-20%"
+  },
+  {
+    "id": 6,
+    "imageURL": "/assets/Games/Lwsurvival.webp",
+    "title": "LW: Survival",
+    "subtitle": "Top-Up",
+    "rating": 5.0,
+    "sold": "100k+",
+    "price": "29.99",
+    "discount": "-23%"
+  },
+  {
+    "id": 7,
+    "imageURL": "/assets/Games/mobile-legends.jpg",
+    "title": "Mobile Legends",
+    "subtitle": "Top-Up",
+    "rating": 4.7,
+    "sold": "90k+",
+    "price": "29.99",
+    "discount": "-10%"
+  },
+  {
+    "id": 8,
+    "imageURL": "/assets/Games/Kingshot.webp",
+    "title": "Kingshot",
+    "subtitle": "Top-Up",
+    "rating": 4.6,
+    "sold": "80k+",
+    "price": "29.99",
+    "discount": "-21%"
+  },
+  {
+    "id": 9,
+    "imageURL": "/assets/Games/gray-raven.jpg",
+    "title": "Punishing: Gray Raven",
+    "subtitle": "Top-Up",
+    "rating": 4.9,
+    "sold": "53.6k",
+    "price": "29.99",
+    "discount": "-24%"
+  },
+  {
+    "id": 10,
+    "imageURL": "/assets/Games/cod.jpg",
+    "title": "Call of Duty: Mobile",
+    "subtitle": "Top-Up",
+    "rating": 4.8,
+    "sold": "200k+",
+    "price": "39.99",
+    "discount": "-18%"
+  },
+  {
+    "id": 11,
+    "imageURL": "/assets/Games/free-fire.jpg",
+    "title": "Free Fire",
+    "subtitle": "Top-Up",
+    "rating": 4.6,
+    "sold": "250k+",
+    "price": "24.99",
+    "discount": "-15%"
+  },
+  {
+    "id": 12,
+    "imageURL": "/assets/Games/clash-of-clans.jpg",
+    "title": "Clash of Clans",
+    "subtitle": "Top-Up",
+    "rating": 4.9,
+    "sold": "180k+",
+    "price": "34.99",
+    "discount": "-22%"
+  },
+  {
+    "id": 13,
+    "imageURL": "/assets/Games/clash-royale.jpg",
+    "title": "Clash Royale",
+    "subtitle": "Top-Up",
+    "rating": 4.7,
+    "sold": "130k+",
+    "price": "19.99",
+    "discount": "-20%"
+  },
+  {
+    "id": 14,
+    "imageURL": "/assets/Games/lol-wild-rift.png",
+    "title": "League of Legends: Wild Rift",
+    "subtitle": "Top-Up",
+    "rating": 4.8,
+    "sold": "90k+",
+    "price": "29.99",
+    "discount": "-25%"
+  },
+  {
+    "id": 15,
+    "imageURL": "/assets/Games/fate-grand-order.jpg",
+    "title": "Fate/Grand Order",
+    "subtitle": "Top-Up",
+    "rating": 4.9,
+    "sold": "85k+",
+    "price": "39.99",
+    "discount": "-28%"
+  },
+  {
+    "id": 16,
+    "imageURL": "/assets/Games/ark-knights.jpg",
+    "title": "Arknights",
+    "subtitle": "Top-Up",
+    "rating": 4.8,
+    "sold": "67k+",
+    "price": "24.99",
+    "discount": "-22%"
+  },
+  {
+    "id": 17,
+    "imageURL": "/assets/Games/tower-of-fantasy.avif",
+    "title": "Tower of Fantasy",
+    "subtitle": "Top-Up",
+    "rating": 4.6,
+    "sold": "58k+",
+    "price": "29.99",
+    "discount": "-18%"
+  },
+  {
+    "id": 18,
+    "imageURL": "/assets/Games/goddes.jpg",
+    "title": "Goddess of Victory: Nikke",
+    "subtitle": "Top-Up",
+    "rating": 4.7,
+    "sold": "74k+",
+    "price": "27.99",
+    "discount": "-19%"
+  },
+  {
+    "id": 19,
+    "imageURL": "/assets/Games/dragon-ball.jpg",
+    "title": "Dragon Ball Legends",
+    "subtitle": "Top-Up",
+    "rating": 4.8,
+    "sold": "92k+",
+    "price": "29.99",
+    "discount": "-20%"
+  },
+  {
+    "id": 20,
+    "imageURL": "/assets/Games/bleack.png",
+    "title": "Bleach: Brave Souls",
+    "subtitle": "Top-Up",
+    "rating": 4.5,
+    "sold": "60k+",
+    "price": "19.99",
+    "discount": "-14%"
+  },
+  {
+    "id": 21,
+    "imageURL": "/assets/Games/one-piece.jpg",
+    "title": "One Piece Bounty Rush",
+    "subtitle": "Top-Up",
+    "rating": 4.7,
+    "sold": "70k+",
+    "price": "24.99",
+    "discount": "-20%"
+  },
+  {
+    "id": 22,
+    "imageURL": "/assets/Games/valorant.jpg",
+    "title": "Valorant Points",
+    "subtitle": "Gift Card",
+    "rating": 5.0,
+    "sold": "150k+",
+    "price": "49.99",
+    "discount": "-25%"
+  },
+  {
+    "id": 23,
+    "imageURL": "/assets/Games/steam-wallet.jpg",
+    "title": "Steam Wallet Code",
+    "subtitle": "Gift Card",
+    "rating": 4.9,
+    "sold": "300k+",
+    "price": "50.00",
+    "discount": "-10%"
+  },
+  {
+    "id": 24,
+    "imageURL": "/assets/Games/netflix.webp",
+    "title": "Netflix Gift Card",
+    "subtitle": "Gift Card",
+    "rating": 4.8,
+    "sold": "400k+",
+    "price": "25.00",
+    "discount": "-8%"
+  }
+]
